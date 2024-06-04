@@ -11,10 +11,22 @@ SELECT * FROM movies
 ORDER BY Year DESC
 LIMIT 4;
 
+-- or
+
+SELECT title, year FROM movies
+ORDER BY year DESC
+LIMIT 4;
+
 -- 3. List the first five Pixar movies sorted alphabetically
 
 SELECT * FROM movies
 ORDER BY Title
+LIMIT 5;
+
+-- or
+
+SELECT title FROM movies
+ORDER BY title ASC
 LIMIT 5;
 
 -- 4. List the next five Pixar movies sorted alphabetically
@@ -23,3 +35,9 @@ SELECT * FROM movies
 ORDER BY Title
 LIMIT 5
 OFFSET 5;
+
+-- or
+
+SELECT title FROM movies
+ORDER BY title ASC
+LIMIT 5 OFFSET 5;
