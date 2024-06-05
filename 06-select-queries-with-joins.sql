@@ -1,4 +1,4 @@
--- Lesson 6: Multi-table queries with JOINs
+-- SQL Lesson 6: Multi-table queries with JOINs
 
 -- 1. Find the domestic and international sales for each movie
 

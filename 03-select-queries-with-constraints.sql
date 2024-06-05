@@ -1,4 +1,4 @@
--- SQL Lesson 2: Queries with constraints (Pt. 2)
+-- SQL Lesson 3: Queries with constraints (Pt. 2)
 
 -- 1. Find all the Toy Story movies
 
